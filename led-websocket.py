@@ -5,7 +5,7 @@ from urllib.request import urlopen
 
 import RPi.GPIO as GPIO
 
-with urlopen('https://raw.githubusercontent.com/cloud-and-smart-labs/pi-system-service/master/led-websocket/conf.json') as url:
+with urlopen('https://raw.githubusercontent.com/Rajeshzealster/led-websocket/main/conf.json') as url:
     data = json.loads(url.read().decode())
     PIN = int(data['pin'])
     
