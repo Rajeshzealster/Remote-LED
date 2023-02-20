@@ -5,7 +5,7 @@ After=multi-user.target
 [Service]
 Type=simple
 Restart=always
-ExecStart=/usr/bin/python3.9 /tmp/system-service/led-websocket.py
+ExecStart=/usr/bin/python3.9 /tmp/daemon-service/led-websocket.py
 
 [Install]
 WantedBy=multi-user.target
