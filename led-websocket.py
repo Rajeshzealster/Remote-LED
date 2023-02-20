@@ -10,7 +10,7 @@ with urlopen('https://raw.githubusercontent.com/Rajeshzealster/led-websocket/mai
     PIN = int(data['pin'])
     
 
-with open('/tmp/system-service/env.json','r') as conf:
+with open('/tmp/daemon-service/env.json','r') as conf:
     data = json.loads(conf.read())
     url = data['websocket_url']
 
