@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx-webserver
-        image: thalla22/static_nginx-webpage
+        image: thalla22/nginx-webpage_arm
         env:
          - name: WEBSOCKET_SERVER_ADDRESS
            value: "{{ WEBSOCKET_URL }}"
