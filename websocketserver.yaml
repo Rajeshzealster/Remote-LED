@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: websocket-server
-        image: suvambasak/pyimg:websocketledserver
+        image: thalla22/websocket_server_arm
         ports:
         - containerPort: 7890
         readinessProbe:
